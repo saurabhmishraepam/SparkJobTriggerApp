@@ -10,7 +10,7 @@ public class TriggerApp {
         Process p =Runtime.getRuntime().exec("C:\\Users\\Saurabh_Mishra\\Documents\\gigaspaces\\gigaspaces-insightedge-enterprise-14.5.0\\gigaspaces-insightedge-enterprise-14.5.0\\insightedge\\bin\\insightedge-submit.cmd" +
                 " --class com.gigaspaces.SpacePersistApp" +
                 " --master spark://127.0.0.1:7077" +
-                " C:\\Users\\Saurabh_Mishra\\OneDrive - EPAM\\gigaspace\\spark-submit\\insightedgeexamples2\\insightedgeexamples2\\target\\SpaceConnectorsApp-1.0-SNAPSHOT-jar-with-dependencies.jar");
+                " C:\\Users\\spark-job\\SpaceConnectorsApp-1.0-SNAPSHOT-jar-with-dependencies.jar");
 
         p.waitFor();
         BufferedReader reader =
